@@ -1,4 +1,4 @@
-@font-face {
+""@font-face {
 font-family: 'Tahoma';
 src: url('fonts/Tahoma400.ttf') format('truetype');
 font-weight: normal;
@@ -89,20 +89,24 @@ padding: 50px;
 }
 .cabecalho h1{
 padding-bottom: 30px;
+color: #000;
 }
 .cabecalho img {
 width: 190px;
 }
 .cabecalho h2 {
 padding-top: 30px;
-padding-bottom: 30px;
+
+color: #000;
 }
 .cabecalho p {
 box-sizing: border-box;
 max-width: 930px;
+padding-top: 30px;
 padding-bottom: 30px;
 margin-left: auto;
 margin-right: auto;
+color: #000;
 }
 .cabecalho .button a {
 padding: 12px 25px;
@@ -130,12 +134,76 @@ border-bottom: 1px solid #606060;
 }
 .historia h2{
 padding-top: 30px;
-padding-bottom: 20px;
+color: #000;
 }
 .historia p{
+box-sizing: border-box;
 max-width: 930px;
+padding-top: 30px;
 padding-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+color: #000;
 }
 .historia span {
 font-weight: bold;
+}
+
+/* Autor */
+.autor {
+border-bottom: 1px solid #d5d5d5;
+padding: 50px;
+}
+.autor h2 {
+padding-bottom: 20px;
+color: #000;
+}
+.autor img{
+width: 190px;
+}
+.autor p{
+box-sizing: border-box;
+max-width: 930px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+color: #000;
+}
+
+/* Rodape */
+.rodape p {
+box-sizing: border-box;
+max-width: 930px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+color: #000;
+}
+.rodape span {
+font-weight: bold;
+}
+.rodape h2 {
+box-sizing: border-box;
+max-width: 930px;
+padding-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+color: #000;
+font-weight: bold;
+}
+.rodape .button a {
+padding: 12px 25px;
+background: #49b970;
+border-radius: 20px;
+}
+.rodape .button {
+display: inline-block;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+text-align: center;
+color: #ffffff;
+margin-bottom: 40px;
 }
