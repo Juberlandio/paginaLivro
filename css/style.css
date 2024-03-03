@@ -99,7 +99,7 @@ padding-top: 30px;
 
 color: #000;
 }
-.cabecalho p {
+.item {
 box-sizing: border-box;
 max-width: 930px;
 padding-top: 30px;
@@ -136,15 +136,6 @@ border-bottom: 1px solid #606060;
 padding-top: 30px;
 color: #000;
 }
-.historia p{
-box-sizing: border-box;
-max-width: 930px;
-padding-top: 30px;
-padding-bottom: 30px;
-margin-left: auto;
-margin-right: auto;
-color: #000;
-}
 .historia span {
 font-weight: bold;
 }
@@ -161,28 +152,8 @@ color: #000;
 .autor img{
 width: 190px;
 }
-.autor p{
-box-sizing: border-box;
-max-width: 930px;
-padding-top: 30px;
-padding-bottom: 30px;
-margin-left: auto;
-margin-right: auto;
-color: #000;
-}
 
 /* Rodape */
-.rodape p {
-box-sizing: border-box;
-max-width: 930px;
-padding-top: 30px;
-padding-bottom: 30px;
-padding-left: 20px;
-padding-right: 20px;
-margin-left: auto;
-margin-right: auto;
-color: #000;
-}
 .rodape span {
 font-weight: bold;
 }
