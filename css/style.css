@@ -4,14 +4,6 @@ src: url('fonts/Tahoma400.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 
-/* Tipos de format()
-- opentype (otf)
-- truetype (ttf)
-- embedded-opentype
-- truetype-aat (Aple Advanced Typography)
-- svg */
-}
-
 /* Global */
 html, 
 body {
